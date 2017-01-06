@@ -449,7 +449,7 @@ LinkerObject const& Assembly::assemble() const
 		switch (i.type())
 		{
 		case Operation:
-			ret.bytecode.push_back((byte)i.data());
+			ret.bytecode.push_back((byte)i.instruction());
 			break;
 		case PushString:
 		{
