@@ -340,6 +340,8 @@ activate themselves.
             // 3. Interaction
             if (!beneficiary.send(highestBid))
                 throw;
+                
+            // 4. Return Bids from loosers?!?!?!
         }
     }
 
